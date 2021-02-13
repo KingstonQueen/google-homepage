@@ -1,10 +1,25 @@
 <style>
 
-#searchbar {
-    position: absolute;
-    top: 40px;
-    color: gray;
+.topnav {
+    overflow: hidden; !important
 }
 
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center; 
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.topnav a:hover {
+    text-decoration: underline;
+    color: black; 
+}
+
+#googlelogo {
+    margin-top: auto;
+}
 
 </style>
