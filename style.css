@@ -18,8 +18,45 @@
     color: black; 
 }
 
-#googlelogo {
-    margin-top: auto;
+.googlelogo {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.container {
+    max-width: 100%;
+}
+
+#search {
+    max-width: 30%;
+}
+
+.form-control {
+    border-radius: 20px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: gray;
+    background-color: #f5f5f5;
+}
+
+.footer a {
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
 }
 
 </style>
+
