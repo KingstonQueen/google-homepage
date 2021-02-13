@@ -1,27 +1,9 @@
 <style>
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: center;
-    text-decoration: none;
-}
-
-li a: hover {
-    text-decoration: underline;
+#searchbar {
+    position: absolute;
+    top: 40px;
+    color: gray;
 }
 
 
